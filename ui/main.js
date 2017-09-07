@@ -8,6 +8,12 @@ element.innerHTML = 'abcd';
 //move image
 var img = document.getElementById('madi');
 
-img.onclick = function (){ 
-    img.style.marginLeft='100px';
+//img.onclick = function (){ 
+ //   img.style.marginLeft='100px';
+
+
+window.onload = function(){
+    document.getElementById('madi').onclick=function(){
+        img.style.marginLeft='100px';
+    };
 };
